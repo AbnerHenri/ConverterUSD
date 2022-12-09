@@ -31,6 +31,7 @@ export const Input = styled.TextInput`
   height : 60px;
   background-color: white;
   border-radius: 10px;
+  font-size: 20px;
   border : none;
   margin : 10px;
   text-align: center;
@@ -41,4 +42,9 @@ export const Line = styled.View`
   height : 2px;
   background-color: white;
   transform: translateY(120px);
+`
+
+export const Button = styled.Button`
+  width: 200px;
+  height : 35px;
 `
