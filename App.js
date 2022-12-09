@@ -7,7 +7,9 @@ const App = ()  => {
 
   return (
     <SafeAreaView style={[Styles.Page, { backgroundColor : Background}]}>
+      <View style={Styles.Inputs}>
 
+      </View>
     </SafeAreaView>
   );
 };
@@ -18,8 +20,13 @@ const Styles = StyleSheet.create({
 
   Page : {
     flex : 1,
+  },
+
+  Inputs : {
+    width : '90%',
+    height: '70%',
+    borderBottomWidth : '90%',
+    borderBottomColor : 'white'
   }
-
-
 
 })
