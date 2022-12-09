@@ -20,6 +20,8 @@ const Styles = StyleSheet.create({
 
   Page : {
     flex : 1,
+    justifyContent : 'center',
+    alignItems : 'center'
   },
 
   Inputs : {
