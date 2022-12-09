@@ -1,12 +1,12 @@
 import React from 'react';
-import { SafeAreaView } from 'react-native'
+import { StyleSheet, SafeAreaView, View, TextInput, Button } from 'react-native'
 
 const App = ()  => {
 
 
   return (
     <SafeAreaView>
-      
+
     </SafeAreaView>
   );
 };
