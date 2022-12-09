@@ -8,8 +8,10 @@ const App = ()  => {
   return (
     <SafeAreaView style={[Styles.Page, {backgroundColor : Background}]}>
       <View style={Styles.Inputs}>
-        <TextInput placeholder='Digite seu E-mail' />
-        <TextInput placeholder='Digite sua senha' />
+        <TextInput 
+          placeholder='Digite o valor a ser convertido'
+          keyboardType='numeric'
+        />
       </View>
     </SafeAreaView>
   );
