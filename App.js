@@ -1,17 +1,21 @@
 import React from 'react';
-import { SafeAreaView, Text, View } from 'react-native';
 import styled from 'styled-components/native';
+
+const Page = styled.SafeAreaView`
+  flex : 1;
+`
+
+const Text = styled.Text`
+  font-size: 25px;
+  color : gray;
+`
 
 const App = ()  => {
   return (
-    <SafeAreaView>
-      <View>
-        <Text>Hello World!</Text>
-      </View>
-    </SafeAreaView>
+  <Page>
+    <Text>Hello World!</Text>
+  </Page>
   );
 };
-
-
 
 export default App;
