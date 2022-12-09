@@ -6,7 +6,7 @@ const App = ()  => {
   const Background = '#361ae6'
 
   return (
-    <SafeAreaView style={Styles.Page}>
+    <SafeAreaView style={[Styles.Page, { backgroundColor : Background}]}>
 
     </SafeAreaView>
   );
