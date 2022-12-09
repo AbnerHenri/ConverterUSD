@@ -5,7 +5,7 @@ const App = ()  => {
 
 
   return (
-    <SafeAreaView>
+    <SafeAreaView style={Styles.Page}>
 
     </SafeAreaView>
   );
@@ -14,5 +14,8 @@ const App = ()  => {
 export default App;
 
 const Styles = StyleSheet.create({
-  
+  Page : {
+    flex : 1,
+  }
+
 })
