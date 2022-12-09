@@ -1,5 +1,5 @@
 import React from 'react';
-import { Title, Page, View } from './Styles/AppStyle'
+import { Title, Page, View, Input } from './Styles/AppStyle'
 
 const App = ()  => {
 
@@ -9,7 +9,8 @@ const App = ()  => {
     <Title>Welcome</Title>
 
     <View>
-
+      <Input placeholder={'Digite seu login'} />
+      <Input placeholder={'Digite sua senha'} />
     </View>
   </Page>
   );

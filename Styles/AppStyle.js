@@ -20,5 +20,15 @@ export const Title = styled.Text`
   color : white;
   font-weight: 700;
   letter-spacing: 2px;
-  transform: translateY(-35px);
+  transform: translateY(-15px);
+`
+
+export const Input = styled.TextInput`
+  width : 300px;
+  height : 60px;
+  background-color: white;
+  border-radius: 10px;
+  border : none;
+  margin : 15px;
+  text-align: center;
 `
