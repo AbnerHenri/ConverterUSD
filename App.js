@@ -6,9 +6,10 @@ const App = ()  => {
   const Background = '#361ae6'
 
   return (
-    <SafeAreaView style={[Styles.Page, { backgroundColor : Background}]}>
+    <SafeAreaView style={[Styles.Page, {backgroundColor : Background}]}>
       <View style={Styles.Inputs}>
-
+        <TextInput placeholder='Digite seu E-mail' />
+        <TextInput placeholder='Digite sua senha' />
       </View>
     </SafeAreaView>
   );
