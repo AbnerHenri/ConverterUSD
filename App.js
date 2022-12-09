@@ -3,6 +3,15 @@ import styled from 'styled-components/native';
 
 const Page = styled.SafeAreaView`
   flex : 1;
+
+  justify-content: center;
+  align-items: center;
+`
+
+const View = styled.View`
+  width: 90%;
+  height :60%;
+  background-color: blue;
 `
 
 const Text = styled.Text`
@@ -13,7 +22,9 @@ const Text = styled.Text`
 const App = ()  => {
   return (
   <Page>
-    <Text>Hello World!</Text>
+    <View>
+
+    </View>
   </Page>
   );
 };
