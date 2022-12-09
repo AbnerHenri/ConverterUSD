@@ -13,6 +13,9 @@ export const Page = styled.SafeAreaView`
 export const View = styled.View`
   width: 90%;
   height :60%;
+  margin-top : 25px;
+
+  align-items: center;
 `
 
 export const Title = styled.Text`
@@ -29,6 +32,13 @@ export const Input = styled.TextInput`
   background-color: white;
   border-radius: 10px;
   border : none;
-  margin : 15px;
+  margin : 10px;
   text-align: center;
+`
+
+export const Line = styled.View`
+  width : 90%;
+  height : 2px;
+  background-color: white;
+  transform: translateY(120px);
 `
