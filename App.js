@@ -46,11 +46,12 @@ const Styles = StyleSheet.create({
   },
 
   CalculatorArea : {
-    justifyContent : 'space-evenly',
+    justifyContent : 'space-between',
     alignItems : 'center',
+    marginTop : 50,
 
     width : '90%',
-    height: '50%',
+    height: '30%',
     transform : [{translateY : -20}],
   },
 
@@ -100,7 +101,9 @@ const Styles = StyleSheet.create({
   },
 
   Result : {
-    
+    width : '90%',
+    height : 150,
+    backgroundColor : 'gray'
   }
 
 })
