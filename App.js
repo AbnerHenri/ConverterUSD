@@ -3,15 +3,17 @@ import { StyleSheet, SafeAreaView, View, TextInput, Button } from 'react-native'
 
 const App = ()  => {
 
-  const Background = '#361ae6'
+  const Background = '#ccc'
 
   return (
     <SafeAreaView style={[Styles.Page, {backgroundColor : Background}]}>
       <View style={Styles.Inputs}>
-        <TextInput 
+
+        {/* <TextInput 
           placeholder='Digite o valor a ser convertido'
           keyboardType='numeric'
-        />
+        /> */}
+        
       </View>
     </SafeAreaView>
   );
@@ -29,9 +31,10 @@ const Styles = StyleSheet.create({
 
   Inputs : {
     width : '90%',
-    height: '70%',
-    borderBottomWidth : '90%',
-    borderBottomColor : 'white'
+    height: '50%',
+    transform : [{translateY : -20}],
+    borderBottomColor : 'gray',
+    borderBottomWidth : 2,
   }
 
 })
