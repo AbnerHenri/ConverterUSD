@@ -9,10 +9,11 @@ const App = ()  => {
     <SafeAreaView style={[Styles.Page, {backgroundColor : Background}]}>
       <View style={Styles.Inputs}>
 
-        {/* <TextInput 
-          placeholder='Digite o valor a ser convertido'
+        <TextInput 
+          placeholder='Digite o valor'
           keyboardType='numeric'
-        /> */}
+          style={Styles.Input}
+        />
         
       </View>
     </SafeAreaView>
@@ -30,10 +31,24 @@ const Styles = StyleSheet.create({
   },
 
   Inputs : {
+    justifyContent : 'center',
+    alignItems : 'center',
+
     width : '90%',
     height: '50%',
     transform : [{translateY : -20}],
     borderBottomColor : 'gray',
+    borderBottomWidth : 2,
+  },
+
+  Input : {
+    width : 220,
+    padding : 15,
+    fontSize : 20,
+    textAlign : 'center',
+
+
+    borderBottomColor : 'red',
     borderBottomWidth : 2,
   }
 
