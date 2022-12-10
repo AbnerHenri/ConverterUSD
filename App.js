@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, SafeAreaView, View, TextInput, Button } from 'react-native'
+import { StyleSheet, SafeAreaView, View, TextInput, TouchableOpacity, Text } from 'react-native'
 
 const App = ()  => {
 
@@ -14,6 +14,10 @@ const App = ()  => {
           keyboardType='numeric'
           style={Styles.Input}
         />
+
+        <TouchableOpacity style={Styles.But}>
+          <Text style={{color : 'white'}}>Calcular</Text>
+        </TouchableOpacity>
         
       </View>
     </SafeAreaView>
@@ -31,25 +35,37 @@ const Styles = StyleSheet.create({
   },
 
   Inputs : {
-    justifyContent : 'center',
+    justifyContent : 'space-evenly',
     alignItems : 'center',
 
     width : '90%',
     height: '50%',
     transform : [{translateY : -20}],
-    borderBottomColor : 'gray',
-    borderBottomWidth : 2,
   },
 
   Input : {
     width : 220,
-    padding : 15,
+    padding : 10,
     fontSize : 20,
     textAlign : 'center',
 
-
-    borderBottomColor : 'red',
+    borderBottomColor: '#fb1a09',
     borderBottomWidth : 2,
+    
+  },
+
+  But : {
+    width : 220,
+    padding : 15,
+    backgroundColor: '#fb1a09',
+    
+    justifyContent : 'center',
+    alignItems : 'center',
+    
+    margin : 25,
+    borderRadius : 20,
   }
+
+
 
 })
