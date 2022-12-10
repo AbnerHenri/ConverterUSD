@@ -14,7 +14,7 @@ const App = ()  => {
     </View>
       
 
-      <View style={Styles.Inputs}>
+      <View style={Styles.CalculatorArea}>
 
         <TextInput 
           placeholder='Digite o valor'
@@ -41,7 +41,7 @@ const Styles = StyleSheet.create({
     alignItems : 'center'
   },
 
-  Inputs : {
+  CalculatorArea : {
     justifyContent : 'space-evenly',
     alignItems : 'center',
 
