@@ -7,6 +7,10 @@ const App = ()  => {
 
   return (
     <SafeAreaView style={[Styles.Page, {backgroundColor : Background}]}>
+
+      <Text style={Styles.TitleOne}>Conversor de Moedas</Text>
+      <Text style={Styles.TitleTwo}>De BRL para USD</Text>
+
       <View style={Styles.Inputs}>
 
         <TextInput 
@@ -16,7 +20,7 @@ const App = ()  => {
         />
 
         <TouchableOpacity style={Styles.But}>
-          <Text style={{color : 'white'}}>Calcular</Text>
+          <Text style={Styles.TextButton}>Calcular</Text>
         </TouchableOpacity>
         
       </View>
@@ -64,8 +68,22 @@ const Styles = StyleSheet.create({
     
     margin : 25,
     borderRadius : 20,
+  },
+
+  TextButton : {
+    color : 'white',
+  },
+
+  TitleOne : {
+    fontSize : 26,
+    fontWeight : 'bold',
+    padding : 15
+  },
+
+  TitleTwo : {
+    fontSize : 18,
+    color: '#fe6d4c',
+    marginBottom : 25,
   }
-
-
 
 })
