@@ -90,7 +90,9 @@ const Styles = StyleSheet.create({
   },
 
   Titles : {
-    transform: [{ translateY: -50 }]
+    transform: [{ translateY: -35 }],
+    justifyContent : 'center',
+    alignItems : 'center'
   }
 
 })
