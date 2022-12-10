@@ -8,8 +8,11 @@ const App = ()  => {
   return (
     <SafeAreaView style={[Styles.Page, {backgroundColor : Background}]}>
 
+    <View style={Styles.Titles}>
       <Text style={Styles.TitleOne}>Conversor de Moedas</Text>
       <Text style={Styles.TitleTwo}>De BRL para USD</Text>
+    </View>
+      
 
       <View style={Styles.Inputs}>
 
@@ -84,6 +87,10 @@ const Styles = StyleSheet.create({
     fontSize : 18,
     color: '#fe6d4c',
     marginBottom : 25,
+  },
+
+  Titles : {
+    transform: [{ translateY: -50 }]
   }
 
 })
