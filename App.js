@@ -27,6 +27,10 @@ const App = ()  => {
         </TouchableOpacity>
         
       </View>
+
+      <View style={Styles.Result}>
+
+      </View>
     </SafeAreaView>
   );
 };
@@ -93,6 +97,10 @@ const Styles = StyleSheet.create({
     transform: [{ translateY: -35 }],
     justifyContent : 'center',
     alignItems : 'center'
+  },
+
+  Result : {
+    
   }
 
 })
