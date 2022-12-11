@@ -1,4 +1,5 @@
 import React from 'react';
+import Styles from './Styles/AppStyle';
 import { SafeAreaView, View, TextInput, TouchableOpacity, Text } from 'react-native'
 
 const App = ()  => {
