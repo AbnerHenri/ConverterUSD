@@ -101,9 +101,8 @@ const Styles = StyleSheet.create({
   },
 
   Result : {
-    width : '90%',
+    width : '80%',
     height : 150,
-    backgroundColor : 'gray'
   }
 
 })
