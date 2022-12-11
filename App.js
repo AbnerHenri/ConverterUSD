@@ -6,11 +6,12 @@ import { useEffect, useState } from 'react';
 const App = ()  => {
 
   const Background = '#ccc'
+  const API = 'http://economia.awesomeapi.com.br/json/last/USD-BRL'
 
   const [dataApi, setDataApi] = useState('')
 
   useEffect(()=>{
-    
+
   }, [])
 
 
