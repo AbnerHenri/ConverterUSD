@@ -11,7 +11,9 @@ const App = ()  => {
   const [dataApi, setDataApi] = useState('')
 
   useEffect(()=>{
-
+    async function GetData(API) {
+      
+    }
   }, [])
 
 
