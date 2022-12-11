@@ -1,11 +1,12 @@
 import React from 'react';
 import Styles from './Styles/AppStyle';
 import { SafeAreaView, View, TextInput, TouchableOpacity, Text } from 'react-native'
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 
 const App = ()  => {
 
   const Background = '#ccc'
+
 
   return (
     <SafeAreaView style={[Styles.Page, {backgroundColor : Background}]}>
