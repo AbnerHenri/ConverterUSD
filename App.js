@@ -7,6 +7,12 @@ const App = ()  => {
 
   const Background = '#ccc'
 
+  const [dataApi, setDataApi] = useState('')
+
+  useEffect(()=>{
+    
+  }, [])
+
 
   return (
     <SafeAreaView style={[Styles.Page, {backgroundColor : Background}]}>
