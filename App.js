@@ -12,8 +12,13 @@ const App = ()  => {
 
   useEffect(()=>{
     async function GetData(API) {
-      
+      const Req = await fetch(API)
+      const Data = await Req.json()
+
+      console.log(Data.USDBRL.high)
     }
+
+    GetData(API)
   }, [])
 
 
