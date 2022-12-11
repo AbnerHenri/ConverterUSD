@@ -30,19 +30,20 @@ const Styles = StyleSheet.create({
     },
 
     But: {
-        width: 220,
-        padding: 15,
+        width: 215,
+        padding : 12,
         backgroundColor: '#fb1a09',
 
         justifyContent: 'center',
         alignItems: 'center',
 
         margin: 15,
-        borderRadius: 20,
+        borderRadius: 35,
     },
 
     TextButton: {
         color: 'white',
+        fontSize : 18
     },
 
     TitleOne: {
