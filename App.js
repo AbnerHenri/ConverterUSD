@@ -27,6 +27,7 @@ const App = ()  => {
 
   }
 
+  console.log(inputResult)
 
   return (
     <SafeAreaView style={[Styles.Page, {backgroundColor : Background}]}>
@@ -43,6 +44,8 @@ const App = ()  => {
           placeholder='Digite o valor'
           keyboardType='numeric'
           style={Styles.Input}
+          onChange={(e)=> setInputResult(e.target.value)}
+          value={inputResult}
         />
 
         <TouchableOpacity style={Styles.But}>
