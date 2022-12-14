@@ -32,6 +32,7 @@ const App = ()  => {
   }
 
   return (
+    <TouchableWithoutFeedback>
     <SafeAreaView style={[Styles.Page, {backgroundColor : Background}]}>
 
     <View style={Styles.Titles}>
@@ -60,6 +61,7 @@ const App = ()  => {
         <Text style={Styles.TextResult}>USD : {valueResult}</Text>
       </View>
     </SafeAreaView>
+    </TouchableWithoutFeedback>
   );
 };
 
