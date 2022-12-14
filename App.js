@@ -18,6 +18,7 @@ const App = ()  => {
       const Data = await Req.json()
 
       setDataApi(Data.USDBRL.high)
+      Keyboard.dismiss()
     }
 
     GetData(API)
