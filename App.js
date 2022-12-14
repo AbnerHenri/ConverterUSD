@@ -15,7 +15,7 @@ const App = ()  => {
       const Req = await fetch(API)
       const Data = await Req.json()
 
-      console.log(Data.USDBRL.high)
+      setDataApi(Data.USDBRL.high)
     }
 
     GetData(API)
