@@ -10,6 +10,7 @@ const App = ()  => {
 
   const [dataApi, setDataApi] = useState('')
   const [valueResult, setValueResult] = useState(null)
+  const [inputResult, setInputResult] = useState(null)
 
   useEffect(()=>{
     async function GetData(API) {
@@ -23,7 +24,7 @@ const App = ()  => {
   }, [])
 
   function Calc(value) {
-    
+
   }
 
 
