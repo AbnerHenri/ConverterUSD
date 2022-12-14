@@ -43,11 +43,11 @@ const App = ()  => {
           placeholder='Digite o valor'
           keyboardType='numeric'
           style={Styles.Input}
-          onChange={(e)=> setInputResult(e.target.value)}
+          onChangeText={(e)=> setInputResult(e)}
           value={inputResult}
         />
 
-        <TouchableOpacity style={Styles.But}>
+        <TouchableOpacity style={Styles.But} onPress={()=> Calc(inputResult)}>
           <Text style={Styles.TextButton}>Calcular</Text>
         </TouchableOpacity>
         
