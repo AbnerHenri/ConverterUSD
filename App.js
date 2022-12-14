@@ -25,7 +25,9 @@ const App = ()  => {
 
   function Calc(value) {
     const calcResult = value * dataApi
-    setValueResult(calcResult)
+    const fixedResult = calcResult.toFixed(3)
+
+    setValueResult(fixedResult)
   }
 
   return (
