@@ -1,6 +1,6 @@
 import React from 'react';
 import Styles from './Styles/AppStyle';
-import { SafeAreaView, View, TextInput, TouchableOpacity, Text, Keyboard, TouchableWithoutFeedback } from 'react-native'
+import { SafeAreaView, View, TextInput, TouchableOpacity, Text, Keyboard } from 'react-native'
 import { useEffect, useState } from 'react';
 
 const App = ()  => {
@@ -32,7 +32,6 @@ const App = ()  => {
   }
 
   return (
-    <TouchableWithoutFeedback>
     <SafeAreaView style={[Styles.Page, {backgroundColor : Background}]}>
 
     <View style={Styles.Titles}>
@@ -61,7 +60,6 @@ const App = ()  => {
         <Text style={Styles.TextResult}>USD : {valueResult}</Text>
       </View>
     </SafeAreaView>
-    </TouchableWithoutFeedback>
   );
 };
 
