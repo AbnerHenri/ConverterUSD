@@ -22,6 +22,10 @@ const App = ()  => {
     GetData(API)
   }, [])
 
+  function Calc(value) {
+    
+  }
+
 
   return (
     <SafeAreaView style={[Styles.Page, {backgroundColor : Background}]}>
