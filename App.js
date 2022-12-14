@@ -24,10 +24,9 @@ const App = ()  => {
   }, [])
 
   function Calc(value) {
-
+    const calcResult = value * dataApi
+    setValueResult(calcResult)
   }
-
-  console.log(inputResult)
 
   return (
     <SafeAreaView style={[Styles.Page, {backgroundColor : Background}]}>
