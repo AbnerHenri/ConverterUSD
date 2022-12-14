@@ -46,7 +46,7 @@ const App = ()  => {
       </View>
 
       <View style={Styles.Result}>
-
+        <Text>{dataApi}</Text>
       </View>
     </SafeAreaView>
   );
