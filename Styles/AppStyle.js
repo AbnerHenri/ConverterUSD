@@ -74,6 +74,10 @@ const Styles = StyleSheet.create({
         padding : 15,
         borderBottomColor : 'gray',
         borderBottomWidth : 2,
+    },
+
+    TextResult : {
+        fontSize : 25,
     }
 
 })
