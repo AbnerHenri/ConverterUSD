@@ -28,7 +28,7 @@ const App = ()  => {
     const calcResult = value * dataApi
     const fixedResult = calcResult.toFixed(3)
 
-
+    Keyboard.dismiss()
     setValueResult(fixedResult)
   }
 
