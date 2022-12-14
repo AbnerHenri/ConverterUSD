@@ -9,6 +9,7 @@ const App = ()  => {
   const API = 'http://economia.awesomeapi.com.br/json/last/USD-BRL'
 
   const [dataApi, setDataApi] = useState('')
+  const [valueResult, setValueResult] = useState(null)
 
   useEffect(()=>{
     async function GetData(API) {
@@ -46,7 +47,7 @@ const App = ()  => {
       </View>
 
       <View style={Styles.Result}>
-        <Text style={Styles.TextResult}>USD : {dataApi}</Text>
+        <Text style={Styles.TextResult}>USD : {valueResult}</Text>
       </View>
     </SafeAreaView>
   );
