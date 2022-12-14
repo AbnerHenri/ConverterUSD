@@ -67,6 +67,13 @@ const Styles = StyleSheet.create({
     Result: {
         width: '80%',
         height: 150,
+        flexDirection : 'row',
+        justifyContent : 'center',
+        alignItems : 'flex-end',
+
+        padding : 15,
+        borderBottomColor : 'gray',
+        borderBottomWidth : 2,
     }
 
 })
