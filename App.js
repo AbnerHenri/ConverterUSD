@@ -46,7 +46,7 @@ const App = ()  => {
         
       </View>
 
-      <View style={Styles.Result}>
+      <View style={[Styles.Result, { display : valueResult != null ? 'flex' : 'none'}]}>
         <Text style={Styles.TextResult}>USD : {valueResult}</Text>
       </View>
     </SafeAreaView>
